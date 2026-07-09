@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>version 1.0</title>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <!--LEFT SECTION -->
+      <section class="left-section">
+        <header>
+          <h1 class="gameTitle">Minecraft Incremental</h1>
+          <h2 class="gameDescription">Functional Update!</h2>
+          <button id="btn-worldName" class="btn-worldName">Nome do Mundo</button>
+        </header>
+        <div class="container-diamond">
+          <span id="currency" class="currency">Diamantes: 0</span>
+          <span id="dps">Diamantes por segundo: 0</span>
+          <button id="btn-diamond" class="btn diamond">
+            <img src="assets/diamond.png" alt="" />
+          </button>
+        </div>
+        <footer class="milk">MILK</footer>
+        <button class="pinned-sun">☀️</button>
+      </section>
+      <!-- CENTER SECTION -->
+      <section class="center-section">
+        <nav id="center-nav" class="center-nav">
+          <button class="btn-nav" data-section="stats">Estatísticas</button>
+          <button class="btn-nav" data-section="villagerShop">Mercado Villager</button>
+          <button class="btn-nav" data-section="dimensions">Dimensões</button>
+          <button class="btn-nav" data-section="achievements">Conquistas</button>
+          <button class="btn-nav" data-section="mobs">Mobs</button>
+        </nav>
+        <section class="stats-section">
+          <h2>Estatísticas Gerais</h2>
+          <ul class="stats-list">
+            <li class="stats-item">Quantidade atual de diamantes:<span id="stat-currentDiamonds">0</span></li>
+            <li class="stats-item">Total de diamantes coletados:<span id="stat-totalDiamonds">0</span></li>
+            <li class="stats-item">Total de cliques no diamante:<span id="stat-totalClicks">0</span></li>
+            <li class="stats-item">Construções adquiridas:<span id="stat-totalBuildings">0</span></li>
+          </ul>
+        </section>
+        <section class="achievements-section">
+          <h2>Conquistas</h2>
+          <ul class="achievements-content">
+            <li class="achievements-item">
+              <img src="assets/diamond_pickaxe.png" alt="" />
+            </li>
+            <li class="achievements-item">2</li>
+            <li class="achievements-item">3</li>
+            <li class="achievements-item">4</li>
+            <li class="achievements-item">5</li>
+            <li class="achievements-item">6</li>
+            <li class="achievements-item">7</li>
+            <li class="achievements-item">8</li>
+            <li class="achievements-item">9</li>
+            <li class="achievements-item">10</li>
+            <li class="achievements-item">11</li>
+            <li class="achievements-item">12</li>
+            <li class="achievements-item">13</li>
+          </ul>
+        </section>
+      </section>
+      <!-- RIGHT SECTION -->
+      <section class="right-section">
+        <div class="upgrades-section">
+          <div class="upgrades-grid">
+            <p class="grid-item one">ITEM1</p>
+            <p class="grid-item two">ITEM2</p>
+            <p class="grid-item three">ITEM3</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+            <p class="grid-item four">ITEM4</p>
+          </div>
+        </div>
+        <div class="buildings">
+          <ul id="hook-buildings"></ul>
+        </div>
+      </section>
+      <span class="screen-version">vAlpha 1.0</span>
+    </div>
+  </body>
+</html>
