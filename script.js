@@ -16,21 +16,21 @@ const buildings = [
     name: 'Broca de Pedra',
     cost: 2,
     unitProduction: 0.5,
-    icon: 'assets/stone_pickaxe.png',
+    icon: './assets/stone_pickaxe.png',
   },
   {
     id: 'copper_drill',
     name: 'Broca de Cobre',
     cost: 3,
     unitProduction: 3,
-    icon: 'assets/copper_pickaxe.png',
+    icon: './assets/copper_pickaxe.png',
   },
   {
     id: 'iron_drill',
     name: 'Broca de Ferro',
     cost: 4,
     unitProduction: 4,
-    icon: 'assets/iron_pickaxe.png',
+    icon: './assets/iron_pickaxe.png',
   },
 ];
 /* 
